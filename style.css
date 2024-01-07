@@ -1,0 +1,82 @@
+body{
+    background-image: url(./obrázky/pozadí.jpg_large);
+    background-repeat: no-repeat;
+    background-color: rgb(106, 182, 248);
+}
+
+h1{
+font-size: 90px;
+text-align: center;
+color: rgb(212, 113, 21);
+font-family: 'Cinzel Decorative', serif;
+}
+h2{
+    font-size: 50px;
+text-align: center;
+color: rgb(212, 113, 21);
+font-family: 'Cinzel Decorative', serif;
+;
+}
+article{
+    background-color:rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin: auto;
+}
+.galerie{
+    display: inline-block;
+    border: 2px solid rgb(212, 113, 21);
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#galerie{
+    text-align: center;
+}
+.galerie .popis{
+    padding: 10px;
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+#audio{
+    text-align: center;
+}
+
+#video{
+    text-align:center;
+}
+
+table,th,td,caption{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    margin: auto;
+}
+
+th,td{
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    
+}
+a[target]{
+    filter: brightness(100%);
+}
+table caption{
+    background-color: brown;
+}
+article > header{
+    background-color: antiquewhite;
+}
+h1+h2 {
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+}
+a:hover{
+  filter: brightness(120%);
+}
